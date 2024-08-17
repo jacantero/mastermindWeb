@@ -1,0 +1,56 @@
+#ui {
+    width: 50%;
+}
+body{
+    display: flex;
+}
+
+#color_options, #current_combination, #button_container, .historic_combination, .feedback {
+    display: flex;
+    margin: 1.5em 0.3em;
+}
+
+.color_option_button, .current_combination_button, .historic_square {
+    height: 3em;
+    width: 3em;
+    margin-right: 1em;
+} 
+
+.bg-coral{
+    background-color: coral;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+.right_square, .missplaced_square{
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: 0.5em;
+}
+.right_square{
+    background-color: green;
+}
+.missplaced_square{
+    background-color: red;
+}
